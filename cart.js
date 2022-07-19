@@ -1,90 +1,91 @@
-///////////////////////////////////////////////
-///////////////////CART.JS/////////////////////
-///////////////////////////////////////////////
 /*
-    In this file, you'll be writing code to
-    calculate order totals. You'll also be 
-    creating customer objects.  
+    For this section of the assessment you will be putting together a cheat sheet for common git commands.  
+    You'll provide the command as well as what it does. 
 */
-
 
 //////////////////PROBLEM 1////////////////////
-/*  
-    Below is a cart array that has food objects
-    inside. 
-
-    Write a callback below that uses the reduce
-    array method to calculate the sum of all
-    the food. 
+/*
+    Create a variable called 'gitDefinition'.
+    It should be a string containing your best definition of what Git is.
 */
-
-const cart = [
-    {
-        name: 'pizza', 
-        price: 9.99
-    }, 
-    {
-        name: 'pasta', 
-        price: 8.99
-    }, 
-    {
-        name: 'salad', 
-        price: 7.99
-    }
-]
 
 //CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
-
+let gitDefinition = "local terminal that can remotely connect your repository to github";
 
 //////////////////PROBLEM 2////////////////////
-/*  
-    Write a function called `calcFinalPrice` that
-    can take in `cartTotal`,`couponValue`,
-    and `tax` arguments. 
-
-    Inside the function, calculate the tax 
-    on the cartTotal and add it in. Subtract
-    the value of the coupon. Return the final
-    number. 
-
-    Note: the numbers passed in for `tax` will be
-    decimals, for example: .06 for a 6% tax.
+/*
+    Create a variable called 'gitHubDefinition'.  
+    It should be a string containing your best definition of what GitHub is.
 */
 
 //CODE HERE
 
-
+let gitHubDefinition = "store our code work through a public repository that can be viewed by others";
 
 //////////////////PROBLEM 3////////////////////
-/*  
-    In this problem, you'll create a model for 
-    a customer object as well as an example
-    object. 
-
-    Plan out a customer object for the cart page.
-    Think about the information that a 
-    restaurant would need about its customers.
-
-    In the TEXT ANSWER area below, describe the
-    properties that your customer object will have
-    and why you chose those properties.
-
-    Explain what data types each property should be
-    and why you chose those data types. 
-
-    Your object should have at least 4 properties. 
-*/
-
 /*
-    TEXT ANSWER HERE
-
-*/
-
-/*
-    Now, create a customer object following your own
-    guidelines.
+    Create a variable called 'gitInitDefinition'.  
+    It should be a string containing your best definition of what 'git init' does.
 */
 
 //CODE HERE
+
+let gitInitDefinition = "creat a new repository locally";
+//////////////////PROBLEM 4////////////////////
+/*
+    Create a variable called 'gitCloneDefinition'.  
+    It should be a string containing your best definition of what 'git clone' does.
+*/
+
+//CODE HERE
+
+let gitCloneDefinition = "create a copy of an existing repository";
+
+//////////////////PROBLEM 5////////////////////
+/*
+    Create a variable called 'gitStatusDefinition'.  
+    It should be a string containing your best definition of what 'git status' does.
+*/
+
+//CODE HERE
+
+
+let gitStatusDefinition = "displays the state of the working directory and the staging area.";
+
+//////////////////PROBLEM 6////////////////////
+/*
+    Create a variable called 'gitAddDefinition'.  
+    It should be a string containing your best definition of what 'git add' does.
+    Create another variable called 'gitAddCode'.  
+    It should be a string containing the code to add all files.
+*/
+
+//CODE HERE
+
+let gitAddDefinition =  "Adds all files to be saved in the repository";
+
+let gitAddCode ="adding the changes or untracked file inorder to commit to a repository";
+
+//////////////////PROBLEM 7////////////////////
+/*
+    Create a variable called 'gitCommitDefinition'.  
+    It should be a string containing your best definition of what 'git commit' does.
+    Create a variable called 'gitCommitCode'.  
+    It should be a string containing the code to commit using the message "initial commit".
+*/
+
+//CODE HERE
+
+let gitCommitDefinition ="its to commit changes to the local repository";
+
+let gitCommitCode = "it is when we sends the latest changes of the source code to the repository";
+
+//////////////////PROBLEM 8////////////////////
+/*
+    Create a variable called 'gitPushDefinition'.  
+    It should be a string containing your best definition of what 'git push' does.
+*/
+
+//CODE HERE
+let gitPushDefinition = " when we send changes to the remote repository";
