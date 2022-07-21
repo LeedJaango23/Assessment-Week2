@@ -186,3 +186,6 @@ function filterByProperty(property, number, type){
 */
 
 //CODE HERE
+
+const filteredResult = filterByProperty('price', 20, 'above')
+console.log(filteredResult);
