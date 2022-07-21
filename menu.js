@@ -167,6 +167,16 @@ console.log(filteredFood)
 
 //CODE HERE
 
+function filterByProperty(property, number, type){
+    const ourFilteredArr = foodArr.filter((foodArr) => {
+    if (type === 'above'){
+        return number <= foodArr[property]
+    } else {
+        return number >= foodArr[property]
+         }
+    })
+    return ourFilteredArr
+    }
 
 /*
     Invoke the `filterByProperty` function passing
